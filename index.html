@@ -1,0 +1,229 @@
+<html>
+    <head>
+      <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+        <title>
+           Darlene cox
+        </title>
+        <script>
+          function myFunction() {
+            var dots = document.getElementById("dots");
+            var moreText = document.getElementById("more");
+            var btnText = document.getElementById("myBtn");
+          
+            if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.innerHTML = "Read more"; 
+              moreText.style.display = "none";
+            } else {
+              dots.style.display = "none";
+              btnText.innerHTML = "Read less"; 
+              moreText.style.display = "inline";
+            }
+          }
+
+          function myFunction1() {
+            var dots1 = document.getElementById("dots1");
+            var moreText1 = document.getElementById("more1");
+            var btnText1 = document.getElementById("myBtn1");
+          
+            if (dots1.style.display === "none") {
+              dots1.style.display = "inline";
+              btnText1.innerHTML = "Read more"; 
+              moreText1.style.display = "none";
+            } else {
+              dots1.style.display = "none";
+              btnText1.innerHTML = "Read less"; 
+              moreText1.style.display = "inline";
+            }
+          }
+          </script>
+    </head>
+    <body>
+        <header class="text-gray-700 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="img/logo.png" height="50" width="50" fill="none" stroke="currentColor" stroke-width="2" text-white p-2" viewBox="0 0 24 24">
+                  <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+              </a>
+              <nav class="md:mr-auto md:ml-4 md:py-1 md:pl-4 md:border-l md:border-gray-400	flex flex-wrap items-center text-base justify-center">
+                <a href="#about" class="navbar mr-5">About</a>
+                <a href="#portfolio" class="navbar mr-5">Portfolio</a>
+                <a href="#blog" class="navbar mr-5">Blog</a>
+                <a href="#contact" class="navbar mr-5">Contact</a>
+              </nav>
+            </div>
+          </header>
+          <section style="margin-top:-100px;" id="about" class="text-gray-700 body-font">
+            <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+              <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                <h4 style="margin-left:100px; font-family: serif;" class="text-3xl mb-4 text-gray-700">About</h4>
+                <h1 style="margin-left: 100px;" class="heading1 title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Darlene Cox</h1 style="margin-left:100px;">
+                <p style="margin-left:100px;" class="mb-8 leading-relaxed">Darlene is a designer based in New York.<br>With over 8 years of experiance in designing for<br>web and user interface design. She also enjoys<br>working on graphic design and illustrations.</p style="margin-left:100px;">
+                <div class="flex justify-center">
+                  <a href="#contact"><button id="btn1" class="ml-4 inline-flex border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-lg">Work Enquiry</button></a>
+                </div>
+              </div>
+              <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                <img style="height:650px; margin-top: -60px;" class="object-cover object-center rounded" alt="hero" src="img/1.jpg">
+              </div>
+            </div>
+          </section>
+          <h4 style="margin-left:65px; font-family: serif;" id="portfolio" class="text-3xl mb-4 text-gray-700">Portfolio</h4>
+          <header style="margin-top: -30px;" class="text-gray-700 body-font">
+            <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+              <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <span class="heading1 ml-3 text-xl"><h1>Featured</h1></span>
+              </a>
+              <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="#" class="mr-5 navbar">Featured</a>
+                <a href="#" class="mr-5 navbar">User Interface</a href="#">
+                <a href="#" class="mr-5 navbar">Web Design</a href="#">
+                <a href="#" class="mr-5 navbar">Branding</a href="#">
+                <a href="#" class="mr-5 navbar">Graphic Design</a href="#">
+              </nav>
+            </div>
+          </header>
+          <section style="margin-top: -100px;" class="text-gray-700 body-font">
+            <div class="container px-5 py-24 mx-auto">
+              <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                  <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/2.png">
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                  <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/3.png">
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                  <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/4.png">
+                  </div>
+                </div>
+              </div>
+              <div class="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4">
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                  <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/5.png">
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                  <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/6.png">
+                  </div>
+                </div>
+                <div class="p-4 md:w-1/3 sm:mb-0 mb-6">
+                  <div class="rounded-lg h-64 overflow-hidden">
+                    <img alt="content" class="object-cover object-center h-full w-full" src="img/8.png">
+                  </div>
+                </div>
+              </div>
+            </div>   
+          </section>
+          <h4 style="margin-left:120px; margin-top:30px; font-family: serif;" id="blog" class="text-3xl mb-4 text-gray-700">Blog</h4>  
+          <h1 style="margin-left:120px; margin-top:-15px;" class="heading1 title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Recent Articles</h1 style="margin-left:100px;">
+            <section style="margin-top: -80px; margin-left: 100px;" class="text-gray-700 body-font">
+              <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+                  <b style="color: gray;">12.02.2019</b><br>
+                  <h1 style="font-family: serif; font-weight: bold;" class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">7 Principles of Effective
+                    <br class="hidden lg:inline-block">Icon Design
+                  </h1>
+                  <p class="mb-8 leading-relaxed">Before approaching icon design, there are some guidelines and Principles that are worth studying. If you want to create effective icon design, then ypu should take a holistic approach to issues such as audience, size, simplicity, lighting, perspective, and style
+                  <span id="dots">...</span><span id="more">Before approaching icon design, there are some guidelines and Principles that are worth studying. If you want to create effective icon design, then ypu should take a holistic approach to issues such as audience, size, simplicity, lighting, perspective, and style.</span></p>
+                  <button style="color: orange;" onclick="myFunction()" id="myBtn">Read more</button>
+                </div>
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+                   <img class="object-cover object-center rounded" alt="hero" src="img/7.png" height="300px" width="400px;">
+                </div>
+              </div>
+            </section>
+            <section style="margin-top:-90px; margin-left: 100px;" class="text-gray-700 body-font">
+              <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+                <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6 mb-10 md:mb-0">
+                  <img class="object-cover object-center rounded" alt="hero" src="img/8.png">
+                </div>
+                <div style="margin-top:-40px;" class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
+                  <b style="color: gray;">14.01.2019</b><br>
+                  <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">A step-by-step guide to<br>designing a real estate app</h1>
+                  <p class="mb-8 leading-relaxed">Reasearch usability testing found that the our App for Agents<br>was not meeting the needs of Real Estate Agents around effeciency<br>and speed.we were challenged to re-design the app to address<br>these issues.
+                  <span id="dots1">...</span><span id="more1">Before approaching icon design, there are some guidelines and Principles that are worth studying. If you want to create effective icon design, then ypu should take a holistic approach to issues such as audience, size, simplicity, lighting, perspective, and style.</span></p>
+                  <button style="color: orange;" onclick="myFunction1()" id="myBtn1">Read more</button>
+                </div>
+              </div>
+              <div class="flex justify-center">
+               <a href="articles.html"><button style="margin-top:-40px; margin-left:-30;" id="btn1" class="ml-4 inline-flex border-0 py-2 px-3 focus:outline-none hover:bg-gray-200 rounded text-lg">View all Articles</button></a>
+              </div>
+            </section>
+            <h4 style="margin-left:150px; margin-top:90px; font-family: serif;" id="contact" class="text-3xl mb-4 text-gray-700">Contact</h4>  
+            <h1 style="margin-left:140px;" class="heading1 title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">Work Enquiry</h1 style="margin-left:100px;">
+              <section style="margin-top: -90px; float: left;" class="text-gray-700 body-font relative">
+                <div class="container px-5 py-24 mx-auto">
+                  <div class="flex flex-col text-center w-full mb-12">
+                    <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Wanna talk about your next project?</h1>
+                  </div>
+                  <div class="lg:w-1/2 md:w-2/3 mx-auto">
+                    <div class="flex flex-wrap -m-2">
+                      <div class="p-2 w-1/2">
+                        Full Name *
+                        <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Name" type="text">
+                      </div>
+                      <div class="p-2 w-1/2">
+                        Email Address *
+                        <input class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" placeholder="Enter Email address" type="email">
+                      </div>
+                      &nbsp;<div classs="p-2 w-full">
+                        <label for="Project Type">Project Type *</label><br>
+<select class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2" id="project-type" name="project">
+  <option value="select">Select all that appy</option>
+  <option value="web designing">Web Designing</option>
+  <option value="Graphic Designing">Graphic Designing</option>
+  <option value="Software Designing">Software Designing</option>
+</select>
+                      </div>
+                      <div class="p-2 w-full">
+                        Quick Message
+                        <textarea class="w-full bg-gray-100 rounded border border-gray-400 focus:outline-none h-48 focus:border-indigo-500 text-base px-4 py-2 resize-none block" placeholder="Leave a message"></textarea>
+                      </div>
+                      <div class="p-2 w-full">
+                        <button class="flex mx-auto text-white bg-black border-0 py-2 px-10 focus:outline-none hover:bg-indigo-600 rounded text-lg">Send</button>
+                      </div>
+                      </div>
+                  </div>
+                </div>
+              </section>
+              <footer class="text-gray-700 body-font">
+                <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+                  
+                    <p class="text-gray-600 ml-1">©2020burhankhawaja.com</p>
+                  
+                  <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                    <a href="https://www.facebook.com/" target= "_blank" class="text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                      </svg>
+                    </a>
+                    <a href="https://twitter.com/login?lang=en" target= "_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+                      </svg>
+                    </a>
+                    <a href="https://www.instagram.com/accounts/login/?hl=en" target= "_blank" class="ml-3 text-gray-500">
+                      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                        <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                      </svg>
+                    </a>
+                    <a href="https://www.linkedin.com/login" target= "_blank" class="ml-3 text-gray-500">
+                      <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                        <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                      </svg>
+                    </a>
+                  </span>
+                </div>
+              </footer>             
+            </body>
+</html>
